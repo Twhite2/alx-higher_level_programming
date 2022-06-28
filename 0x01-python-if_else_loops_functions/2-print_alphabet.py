@@ -4,4 +4,4 @@ Print the alphabet in lowercase using ASCII, not followed by a new line.
 """
 
 for i in range(97, 123):
-    print("{:c}".format(i), end="")
+    print('{:c}'.format(i), end='')
